@@ -1,10 +1,10 @@
 package controller;
 
-import model.Payroll;
 import java.io.*;
 import java.time.Duration;
 import java.time.LocalTime;
 import java.util.*;
+import model.Payroll;
 
 public class PayrollController {
     private static final String EMPLOYEE_CSV = "src/resources/employee.csv";
